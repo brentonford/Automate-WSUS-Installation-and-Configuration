@@ -1,0 +1,7 @@
+$logpath = "C:\Users\Administrator\AppData\Local\Temp\\WSUS_PostInstall_*.log"
+Get-ChildItem "$logpath" | Remove-Item -force
+
+CD "C:\Program Files\Update Services\Tools"
+./WsusUtil.exe PostInstall CONTENT_DIR={wsusContentDirectory}
+
+Get-Content -Path "$logpath"

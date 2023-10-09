@@ -1,0 +1,2 @@
+Set-WsusServerSynchronization -SyncFromMU -Confirm:$false
+Set-WsusServerSynchronization -SynchronizeScope "AllProducts" -Confirm:$false

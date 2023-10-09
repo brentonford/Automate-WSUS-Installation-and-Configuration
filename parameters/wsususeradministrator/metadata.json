@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "28821b2b-7649-4631-88cb-16659314722c", 
+    "key": "wsususeradministrator", 
+    "name": "WSUS User: Administrator", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.WinOsCred"
+}

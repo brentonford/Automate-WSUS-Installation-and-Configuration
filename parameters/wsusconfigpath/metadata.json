@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "3a2d6806-7b5a-4ff6-82cb-53b6dbdfbb00", 
+    "key": "wsusconfigpath", 
+    "name": "WSUS Config Path", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

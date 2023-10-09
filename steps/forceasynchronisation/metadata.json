@@ -1,0 +1,16 @@
+{
+    "actionOnStepFail": null, 
+    "enabled": true, 
+    "externalUuid4": "877fa08f-f02e-42e1-bab4-77ce597782bf", 
+    "interpreter": 2, 
+    "interpreterCommand": "", 
+    "interpreterScriptExt": null, 
+    "interpreterScriptSyntax": "", 
+    "key": "forceasynchronisation", 
+    "name": "Force a synchronisation", 
+    "osCredKey": "wsususeradministrator", 
+    "serverKey": "wsusnode", 
+    "successExitCode": 0, 
+    "timeout": 5, 
+    "type": "com.servertribe.attune.tuples.StepWinRmTuple"
+}

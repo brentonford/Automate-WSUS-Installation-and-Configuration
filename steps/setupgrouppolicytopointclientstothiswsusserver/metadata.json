@@ -1,0 +1,16 @@
+{
+    "actionOnStepFail": null, 
+    "enabled": true, 
+    "externalUuid4": "507402af-b3e5-404a-bad4-94872a3dcd9a", 
+    "interpreter": 2, 
+    "interpreterCommand": "", 
+    "interpreterScriptExt": null, 
+    "interpreterScriptSyntax": "", 
+    "key": "setupgrouppolicytopointclientstothiswsusserver", 
+    "name": "Setup group policy to point clients to this WSUS server", 
+    "osCredKey": "wsususeradministrator", 
+    "serverKey": "wsusnode", 
+    "successExitCode": 0, 
+    "timeout": 5, 
+    "type": "com.servertribe.attune.tuples.StepWinRmTuple"
+}

@@ -1,0 +1,16 @@
+{
+    "actionOnStepFail": null, 
+    "enabled": true, 
+    "externalUuid4": "ed8a6c5e-d327-4a5f-a75a-b247a863f1ae", 
+    "interpreter": 2, 
+    "interpreterCommand": "", 
+    "interpreterScriptExt": null, 
+    "interpreterScriptSyntax": "", 
+    "key": "configurewsus", 
+    "name": "Configure WSUS", 
+    "osCredKey": "wsususeradministrator", 
+    "serverKey": "wsusnode", 
+    "successExitCode": 0, 
+    "timeout": 60, 
+    "type": "com.servertribe.attune.tuples.StepWinRmTuple"
+}

@@ -1,0 +1,16 @@
+{
+    "actionOnStepFail": null, 
+    "enabled": true, 
+    "externalUuid4": "d251e07c-e040-44e5-8089-f49c089ede45", 
+    "interpreter": 2, 
+    "interpreterCommand": "", 
+    "interpreterScriptExt": null, 
+    "interpreterScriptSyntax": "", 
+    "key": "setupwsustodownloadupdatesfrommicrosoftupdate", 
+    "name": "Setup WSUS to download updates from Microsoft Update", 
+    "osCredKey": "wsususeradministrator", 
+    "serverKey": "wsusnode", 
+    "successExitCode": 0, 
+    "timeout": 5, 
+    "type": "com.servertribe.attune.tuples.StepWinRmTuple"
+}

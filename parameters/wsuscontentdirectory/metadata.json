@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "072d791c-8c16-4676-9f9e-718d27a317fd", 
+    "key": "wsuscontentdirectory", 
+    "name": "WSUS Content Directory", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

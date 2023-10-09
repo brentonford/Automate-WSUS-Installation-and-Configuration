@@ -1,0 +1,11 @@
+$WSUSServerName = "{wsusNode.fqn}"
+$GPOName = "WSUS GPO"
+$GPOPath = "CN=Policies,CN=System,DC={wsusNode.domain},DC=com"
+$GPO = New-GPO -Name $GPOName
+Set-GPRegistryValue -Name $GPOName -Key "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate" -ValueName "WUServer" -Type String -Value "http://$WSUSServerName" -PropertyType Machine
+Set-GPRegistryValue -Name $GPOName -Key "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate" -ValueName "WUStatusServer" -Type String -Value "http://$WSUSServerName" -PropertyType Machine
+Set-GPRegistryValue -Name $GPOName -Key "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" -ValueName "NoAutoUpdate" -Type DWord -Value 0 -PropertyType Machine
+Set-GPRegistryValue -Name $GPOName -Key "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" -ValueName "AUOptions" -Type DWord -Value 4 -PropertyType Machine
+Set-GPRegistryValue -Name $GPOName -Key "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" -ValueName "ScheduledInstallDay" -Type DWord -Value 0 -PropertyType Machine
+Set-GPRegistryValue -Name $GPOName -Key "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" -ValueName "ScheduledInstallTime" -Type DWord -Value 3 -PropertyType Machine
+New-GPLink -Name $GPOName -Target $GPOPath -LinkEnabled Yes

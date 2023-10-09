@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "7c127492-dbf3-4691-b1d0-3d700c176ef5", 
+    "key": "wsusinstancename", 
+    "name": "WSUS Instance Name", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

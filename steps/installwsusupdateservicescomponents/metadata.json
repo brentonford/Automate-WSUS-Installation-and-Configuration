@@ -1,0 +1,16 @@
+{
+    "actionOnStepFail": null, 
+    "enabled": true, 
+    "externalUuid4": "adb39842-be62-481d-bd58-3d475742e072", 
+    "interpreter": 2, 
+    "interpreterCommand": "", 
+    "interpreterScriptExt": null, 
+    "interpreterScriptSyntax": "", 
+    "key": "installwsusupdateservicescomponents", 
+    "name": "Install WSUS UpdateServices Components", 
+    "osCredKey": "wsususeradministrator", 
+    "serverKey": "wsusnode", 
+    "successExitCode": 0, 
+    "timeout": 5, 
+    "type": "com.servertribe.attune.tuples.StepWinRmTuple"
+}

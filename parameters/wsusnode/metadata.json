@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "882946be-6075-44e5-978e-a76854df1b2b", 
+    "key": "wsusnode", 
+    "name": "WSUS Node", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.WindowsServer"
+}

@@ -1,0 +1,32 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "8d38c051-4c20-429d-aba0-7a51411d2c43", 
+    "isBlueprint": true, 
+    "key": "configurewindowsserverupdateserviceswsusserver", 
+    "links": [
+        {
+            "order": 50, 
+            "stepKey": "installwsusupdateservicescomponents"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "configurewsus"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "setupwsussynchronisationsettings"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "setupwsustodownloadupdatesfrommicrosoftupdate"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "setupgrouppolicytopointclientstothiswsusserver"
+        }
+    ], 
+    "name": "Configure Windows Server Update Services (WSUS) server", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}
